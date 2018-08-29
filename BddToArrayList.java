@@ -36,6 +36,8 @@ public class BddToArrayList {
 				p.setEmail(result.getString("email"));
 				p.setTelephone(result.getString("telephone"));
 				
+				listePersonne.add(p);
+				
 			}
 			
 		} catch (ClassNotFoundException e) {
