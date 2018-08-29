@@ -40,6 +40,20 @@ public class BddToArrayList {
 				
 			}
 			
+			for (int i = 0; i < listePersonne.size(); i++) {
+				
+				System.out.print(listePersonne.get(i).getNom());
+				System.out.print(" ");
+				System.out.print(listePersonne.get(i).getPrenom());
+				System.out.print(" ");
+				System.out.print(listePersonne.get(i).getAge());
+				System.out.print(" ");
+				System.out.print(listePersonne.get(i).getEmail());
+				System.out.print(" ");
+				System.out.print(listePersonne.get(i).getTelephone());
+				System.out.print(" ");
+			}
+			
 		} catch (ClassNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
